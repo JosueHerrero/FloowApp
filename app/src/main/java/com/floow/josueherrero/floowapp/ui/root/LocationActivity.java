@@ -75,8 +75,9 @@ public final class LocationActivity extends FloowActivity<LocationActivityPresen
 
     private static final int ZOOM = 16;
     private static final String TAG = LocationActivity.class.getSimpleName();
-    private static final long UPDATE_INTERVAL_IN_MILLISECONDS = 800;
+    private static final long UPDATE_INTERVAL_IN_MILLISECONDS = 200;
     private static final long FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = UPDATE_INTERVAL_IN_MILLISECONDS / 2;
+    private static final long SMALLEST_DISPLACEMENT = 1;
     private static final int REQUEST_CHECK_SETTINGS = 0x1;
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 34;
 
@@ -458,7 +459,7 @@ public final class LocationActivity extends FloowActivity<LocationActivityPresen
         mLocationRequest.setInterval(UPDATE_INTERVAL_IN_MILLISECONDS);
         mLocationRequest.setFastestInterval(FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS);
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-        mLocationRequest.setSmallestDisplacement(5);
+        mLocationRequest.setSmallestDisplacement(SMALLEST_DISPLACEMENT);
     }
 
     /**
