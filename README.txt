@@ -7,7 +7,7 @@ Hi, I just wanted to make a few remarks about my work.
 the activity one. This is because for this feature the fragments just act like a pure view, they have 
 not intrinsic logic attached. So all the control logic is in the activity presenter. 
 
-	Outside of the presenter the activity is in chargeof the permissions management and the location 
+	Outside of the presenter the activity is in charge of the permissions management and the location 
 settings requests. So we can change the location library with no impact on the presenter.
 
 The presenter is a pure Java class so it is easy to test. From that on, if the app is going to be big 
