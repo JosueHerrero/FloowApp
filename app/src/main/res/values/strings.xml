@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FloowApp</string>
+    <string name="title_activity_main">Location Tracker</string>
+    <string name="bar_list_screen_title">Your trips</string>
+    <string name="bar_map_screen_title">Map</string>
+    <string name="user_position_title">Current position</string>
+    <string name="user_position_description">You are here</string>
+    <string name="distance">Distance</string>
+    <string name="network_error_message">The network connection is not working, check it</string>
+    <string name="record_path_menu">Record latLngList</string>
+    <string name="stop_path_menu">Stop recording</string>
+    <string name="start_path_menu">Start tracking</string>
+    <string name="starting_time">Starting time</string>
+    <string name="end_time">End time</string>
+    <string name="print_text">Print path</string>
+    <string name="path_name">Path</string>
+    <string name="cancel_message">"These permissions are mandatory for the application. Please allow access."</string>
+    <string name="positive_button">"OK"</string>
+    <string name="negative_button">"Cancel"</string>
+    <string name="storage_permission_message">You need to load your path list</string>
+    <string name="fine_location_permission_message">You need the fine location for tracking your path</string>
+    <string name="network_state_permission">The app wants to know if you have the network enabled</string>
+    <string name="network_request">Please, enable you data connection</string>
+</resources>

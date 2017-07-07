@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/margin_normal"
+    android:paddingLeft="@dimen/margin_normal"
+    android:background="@drawable/selectable_background_transparent">
+
+    <TextView
+        android:id="@+id/name_textview"
+        style="@style/FloowTextView.Name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical|left"
+        android:padding="@dimen/margin_small"/>
+
+    <Button
+        android:id="@+id/print_button"
+        style="@style/FloowButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/name_textview"
+        android:text= "@string/print_text"/>
+
+    <RelativeLayout
+        android:id="@+id/detail_container"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/name_textview"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal"
+        android:paddingBottom="@dimen/margin_normal"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/detail_separator"
+            style="@style/Divider.Small"/>
+
+        <TextView
+            android:id="@+id/starting_time_text"
+            style="@style/FloowTextView.DetailText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/detail_separator"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/starting_time"/>
+
+        <TextView
+            android:id="@+id/starting_time_data"
+            style="@style/FloowTextView.DetailData"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/starting_time_text"/>
+
+        <TextView
+            android:id="@+id/end_time_text"
+            style="@style/FloowTextView.DetailText"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/starting_time_text"
+            android:text="@string/end_time"/>
+
+        <TextView
+            android:id="@+id/end_time_data"
+            style="@style/FloowTextView.DetailData"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/end_time_text"/>
+
+    </RelativeLayout>
+
+    <View
+        style="@style/Divider"
+        android:layout_below="@id/detail_container"/>
+
+</RelativeLayout>

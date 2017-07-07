@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#488fdf</color>
+    <color name="colorPrimaryDark">#173e47</color>
+    <color name="colorAccent">#63a0e4</color>
+    <color name="white">#ffffff</color>
+    <color name="brokenWhite">#20c8c8ff</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="floowLightBlue_15">#15173e47</color>
+    <color name="cyan_50">#7f00AEEF</color>
+</resources>

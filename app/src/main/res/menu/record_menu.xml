@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.root.LocationActivity">
+    <item
+        android:id="@+id/start_tracking_menu_item"
+        android:title="@string/start_path_menu"
+        android:icon="@drawable/ic_timeline_white_24dp"
+        android:visible="true"
+        app:showAsAction="collapseActionView|ifRoom"/>
+    <item
+        android:id="@+id/stop_tracking_menu_item"
+        android:title="@string/stop_path_menu"
+        android:icon="@drawable/ic_clear_white_24dp"
+        android:visible="false"
+        app:showAsAction="collapseActionView|ifRoom"/>
+    <item
+        android:id="@+id/start_recording_menu_item"
+        android:title="@string/record_path_menu"
+        android:icon="@drawable/ic_fiber_manual_record_white_24dp"
+        android:visible="false"
+        app:showAsAction="collapseActionView|ifRoom"/>
+    <item
+        android:id="@+id/stop_recording_menu_item"
+        android:title="@string/stop_path_menu"
+        android:icon="@drawable/ic_stop_white_24dp"
+        android:visible="false"
+        app:showAsAction="collapseActionView|ifRoom"/>
+</menu>
