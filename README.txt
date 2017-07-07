@@ -59,6 +59,9 @@ Possible improvements (apart from ui):
 		 be needed for big files.
 	-	Hardcoding the encryption key is no a good idea. The best approx would be build it in 
 		runtime doing string/byte "operations", for a proper ofuscation.
+	-	On location tracking(better outdoors): It would be needed a location filtering for avoiding the false jumps in the tracking.
+		I started this project using the SmartLocation Library: https://github.com/mrmans0n/smart-location-lib. And
+		the tracking was far better.
 
 This project was built in a Windows environment.
 If you have any question don´t hesitate to ask me!
