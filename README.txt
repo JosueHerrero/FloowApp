@@ -1,4 +1,4 @@
-This app has been developed by: Josué Herrero.
+This app has been developed by: Josuï¿½ Herrero.
 
 
 Hi, I just wanted to make a few remarks about my work.
@@ -12,18 +12,18 @@ settings requests. So we can change the location library with no impact on the p
 
 The presenter is a pure Java class so it is easy to test. From that on, if the app is going to be big 
 it is good to have a persistence layer to encapsulate all the database and network logic 
-(inside different places), so the presenter doesn´t actually know from where is the data coming. 
+(inside different places), so the presenter doesnï¿½t actually know from where is the data coming. 
 
 It is decoupled. In this case I use a repository for retrieving/saving the paths file from disk, 
-so the presenter doesn´t have the context.
+so the presenter doesnï¿½t have the context.
 
 Features:
 
 	-	All the mandatory features plus the next ones: 
 	
-	-	Allow the user to see each journey’s path plotted on a map, when selected from the list.
-	-	Secure the data that’s stored on the device.(The path list file is encrypted)
-	-	Retain the user’s data if the app is deleted and re-installed.
+	-	Allow the user to see each journeyï¿½s path plotted on a map, when selected from the list.
+	-	Secure the data thatï¿½s stored on the device.(The path list file is encrypted)
+	-	Retain the userï¿½s data if the app is deleted and re-installed.
 	-	I have written unit tests for the presenter.
 
 
@@ -60,9 +60,9 @@ Possible improvements (apart from ui):
 	-	Hardcoding the encryption key is no a good idea. The best approach  would be build it in 
 		runtime doing string/byte "operations", for a proper obfuscation.
 	-	On location tracking(better outdoors): It would be needed a location filtering for avoiding the false jumps in the tracking.
-		I started this project using the SmartLocation Library: https://github.com/mrmans0n/smart-location-lib. And
-		the tracking was far better.
+		I started this project using the SmartLocation Library: https://github.com/mrmans0n/smart-location-lib.
+		And the tracking was far better.
 
 This project was built in a Windows environment.
-If you have any question don´t hesitate to ask me!
+If you have any question donï¿½t hesitate to ask me!
 
