@@ -32,7 +32,7 @@ Behaviour:
 	-	The app has two location modes: tracking(prints a blue line on the map), 
 		and recording(prints a red line on the map).
 
-	-	At the beggining the tracking and recording are deactivated.
+	-	At the begining the tracking and recording are deactivated.
 
 	-	There is a menu in the toolbar, 
 			The left option is for activating the tracking. It will be deactivated 
@@ -41,7 +41,7 @@ Behaviour:
 			in the background.
 
 	-	Permissions and location settings will be asked when activating the tracking/recording, 
-		it will be necesary to select the option again when all the permission/setting are ready.
+		it will be neccesary to select the option again when all the permission/setting are ready.
 
 	-	If the user starts a recording and he stops it, it is saved and the list is updated.
 
@@ -57,8 +57,8 @@ Possible improvements (apart from ui):
 
 	-	For saving/loading the paths file it would be good to do it in another thread. This would
 		 be needed for big files.
-	-	Hardcoding the encryption key is no a good idea. The best approx would be build it in 
-		runtime doing string/byte "operations", for a proper ofuscation.
+	-	Hardcoding the encryption key is no a good idea. The best approach  would be build it in 
+		runtime doing string/byte "operations", for a proper obfuscation.
 	-	On location tracking(better outdoors): It would be needed a location filtering for avoiding the false jumps in the tracking.
 		I started this project using the SmartLocation Library: https://github.com/mrmans0n/smart-location-lib. And
 		the tracking was far better.
